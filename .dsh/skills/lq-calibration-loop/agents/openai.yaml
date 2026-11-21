@@ -1,0 +1,4 @@
+interface:
+  display_name: "Platform LQ Calibration Loop"
+  short_description: "Plan, run and analyze bounded LQ calibration experiments"
+  default_prompt: "Use $lq-calibration-loop to analyze a Platform_LQ run and propose the next calibration plan within the user-authorized limits."

@@ -1,0 +1,16 @@
+{
+  "kind": "coupler",
+  "backend": "YOUR_BACKEND",
+  "qubits": [9, 4],
+  "reference_z": 0.0,
+  "tuning_z_range": [0.1, 0.25],
+  "tuning_z_hint": 0.175,
+  "coupler_z_values": [-0.2, 0.0, 0.2],
+  "times_ns": [20, 28, 36, 44, 52, 60, 68, 76, 84, 92, 100, 108, 116, 124, 132, 140],
+  "shots": 1000,
+  "max_jobs": 52,
+  "max_shots": 52000,
+  "settings": {},
+  "run_mode": "new",
+  "resume_run_tag": ""
+}

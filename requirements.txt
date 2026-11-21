@@ -1,0 +1,6 @@
+numpy
+pandas
+scipy
+matplotlib
+jupyter
+# Install the LQCloud SDK supplied for the target backend separately.

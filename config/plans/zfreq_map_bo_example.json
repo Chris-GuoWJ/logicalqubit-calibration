@@ -1,0 +1,24 @@
+{
+  "kind": "zfreq_bo",
+  "backend": "YOUR_BACKEND",
+  "qubit": 9,
+  "z_bounds": [
+    -0.2,
+    0.2
+  ],
+  "frequency_bounds": [
+    -0.13,
+    0.17
+  ],
+  "frequency_points": 11,
+  "steps": 6,
+  "initial_points": 3,
+  "shots": 500,
+  "max_jobs": 72,
+  "max_shots": 36000,
+  "kernel": "matern52",
+  "seed": 42,
+  "settings": {},
+  "run_mode": "new",
+  "resume_run_tag": ""
+}

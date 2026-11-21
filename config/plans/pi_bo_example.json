@@ -1,0 +1,26 @@
+{
+  "kind": "pi_bo",
+  "backend": "YOUR_BACKEND",
+  "qubit": 9,
+  "bounds": [3.5, 4.5],
+  "steps": 8,
+  "shots": 1000,
+  "max_jobs": 9,
+  "max_shots": 9000,
+  "kernel": "matern52",
+  "acquisition": "ei",
+  "kappa": 2.0,
+  "seed": 42,
+  "initial_points": 5,
+  "settings": {
+    "duration_ns": 40,
+    "relaxation_ns": 80000,
+    "read_delay_ns": 40,
+    "tail_ns": 1000,
+    "envelope": "raised_cosine",
+    "ram_limit_ns": 120000,
+    "ram_reserve_ns": 30000
+  },
+  "run_mode": "new",
+  "resume_run_tag": ""
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "backend": "YOUR_BACKEND",
+  "frequency_unit": "GHz IF, NOT absolute RF",
+  "z_amplitude_unit": "platform waveform units",
+  "qubits": {
+    "0": {
+      "z_frequency_points": [
+        {"z_amplitude": -0.1, "drive_if_ghz": -0.05, "valid": true},
+        {"z_amplitude": 0.1, "drive_if_ghz": 0.05, "valid": true}
+      ]
+    }
+  }
+}
